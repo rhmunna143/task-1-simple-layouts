@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>5.11</title>
+
+    <style>
+      .inter-font {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body
+    class="inter-font container mx-auto p-4 flex justify-center items-center min-h-screen"
+  >
+    <!-- card -->
+    <div class="card bg-[#0058FF] rounded-3xl text-white lg:p-8 lg:3/4 md:w-3/4 w-96">
+      <div class="card-body flex flex-col gap-6 justify-center items-center">
+        <h2 class="card-title text-2xl md:text-3xl text-center lg:text-5xl">
+          Get In Touch
+        </h2>
+
+        <p class="lg:text-lg text-sm font-normal">
+          Contact us now to enquire our plumbing services, whether you have a
+          commercial project that requires support, or a domestic plumbing task
+          that needs the attention of a trusted professional.
+        </p>
+
+        <div class="card-actions">
+          <button class="btn text-[#0058FF] font-bold rounded-lg">
+            <span>Book a Professional Plumber</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+            >
+              <path
+                d="M5.5 12H19.5"
+                stroke="#0058FF"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12.5 5L19.5 12L12.5 19"
+                stroke="#0058FF"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
